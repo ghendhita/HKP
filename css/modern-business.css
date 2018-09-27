@@ -1,0 +1,79 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  /* padding-top: 54px; */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.bg-pkh{
+  background-color: darkblue;
+}
+
+
+@media (min-width: 992px) { /* PC */
+  #slide-home .carousel-item {
+    min-height: 450px;
+    height: calc(50% - 56px);
+    width: 100%;
+
+    background: no-repeat  no-repeat center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: calc(100%) calc(100%) ;
+    border: 1px solid black;
+  }
+  #slide-home .carousel-caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(100, 100, 100, 0.8);
+    width: 100%;
+    height: 25%;
+  }
+}
+
+
+@media (max-width: 993px) { /* HP */
+  #slide-home .carousel-item {
+    min-height: 150px;
+    height: calc(30% - 54px);
+    width: 100%;
+
+    background: no-repeat  no-repeat center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: calc(100% + 56px) calc(100%);
+    border: 1px solid black;
+  }
+  #slide-home .carousel-caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(100, 100, 100, 0.8);
+    width: 100%;
+    height: 25%;
+  }
+}
+
+#slide-home ol{
+  background-color: darkblue;
+}
+
+#news-home img{
+  width: 200px;
+  max-height: 100px; */
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
